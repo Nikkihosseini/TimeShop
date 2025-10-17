@@ -7,7 +7,7 @@ export default function Header(){
             <div className="flex items-center justify-between w-full">
                 <div className="flex flex-col items-center">
                     <span className="material-symbols-outlined flex items-center justify-center bg-amber-500 rounded-full   text-amber-50 text-3xl h-12 w-12 rotate-45">watch</span>
-                    <h1 className="text-2xl tracking-widest"><span className="text-amber-300">Time</span> Shop</h1>
+                    <h1 className="text-2xl tracking-widest"><span className="text-amber-300">Time</span>Shop</h1>
                 </div>
                 <div className="h-full">
                     <ul className="flex items-center justify-between gap-14 font-semibold h-full tracking-wider">
