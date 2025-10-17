@@ -1,5 +1,5 @@
 
 
-interface ButtonProps {
+export interface ButtonProps {
   text: string;
 }
