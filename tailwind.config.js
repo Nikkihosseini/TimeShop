@@ -9,6 +9,13 @@ export default {
       backgroundImage: {
       "home-desktop": "url(/image/HomeBg.jpg)",
     },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+        lg: '0.625rem',
+      },
+    },
     },
   },
   plugins: [],
