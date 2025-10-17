@@ -8,6 +8,7 @@ export default function home(){
                  <span className='absolute top-0 bottom-0 right-0 left-0 w-full h-screen bg-gradient-to-r from-slate-800/50 to-slate-800/50'></span>
                  {/* Header */}
                 <Header/>
+                
             </div>
         </>
     )
