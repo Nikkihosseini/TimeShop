@@ -13,18 +13,20 @@ export default function home(){
                 <Header/>
 
                 {/* Home */}
-                 <div className='absolute flex items-center justify-center w-full h-full'>
-                    <div className='text-amber-50'>
-                        <h2>
-                            More than a watch — defining style
-                        </h2>
-                        <h3>
-                            Timeless beauty — always flawless
-                        </h3>
-                    </div>
-                    <div className=''>
-                        <Btn text='shop now'/>
-                        <Btn text='about us'/>
+                 <div className='absolute right-0 left-0 top-10 overflow-y-hidden h-full md:min-h-screen flex items-center justify-center'>
+                    <div className='flex flex-col items-center gap-y-12 text-center'>
+                        <div className='text-amber-50'>
+                            <h2 className='font-bold text-4xl uppercase'>
+                                More than a watch — defining style
+                            </h2>
+                            <h3 className='mt-5 font-serif text-lg italic tracking-wide'>
+                                Timeless beauty — always flawless
+                            </h3>
+                        </div>
+                        <div className='flex items-center gap-x-8'>
+                            <Btn text='shop now'/>
+                            <Btn text='about us'/>
+                        </div>
                     </div>
                  </div>
                  
