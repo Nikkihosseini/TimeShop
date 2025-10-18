@@ -25,7 +25,7 @@ export default function home(){
                         </div>
                         <div className='flex items-center gap-x-8'>
                             <Btn text='shop now'/>
-                            <Btn text='about us'/>
+                            <Btn text='about us' style={{backgroundColor: '#f59e0b', color: '#fffbeb'}}/>
                         </div>
                     </div>
                  </div>
