@@ -7,19 +7,19 @@ export default function home(){
     return(
         <>
             <div className='relative w-full h-screen bg-home-desktop aspect-[2/1] bg-no-repeat bg-cover bg-[center-top]'>
-                 <span className='absolute top-0 bottom-0 right-0 left-0 w-full h-screen bg-gradient-to-r from-slate-800/50 to-slate-800/50'></span>
+                 <span className='absolute top-0 bottom-0 right-0 left-0 w-full h-screen bg-gradient-to-r from-slate-800/85 to-slate-800/50'></span>
 
                 {/* Header */}
                 <Header/>
 
                 {/* Home */}
-                 <div className='absolute right-0 left-0 top-10 overflow-y-hidden h-full md:min-h-screen flex items-center justify-center'>
-                    <div className='flex flex-col items-center gap-y-12 text-center'>
-                        <div className='text-amber-50'>
-                            <h2 className='font-bold text-4xl uppercase'>
+                 <div className='absolute right-0 left-0 pt-12 overflow-y-hidden h-full md:min-h-screen flex items-center justify-center'>
+                    <div className='flex flex-col items-center gap-y-10 text-center'>
+                        <div className='text-amber-50 backdrop-blur-xl'>
+                            <h2 className='font-bold text-4xl uppercase pt-5'>
                                 More than a watch — defining style
                             </h2>
-                            <h3 className='mt-5 font-serif text-lg italic tracking-wide'>
+                            <h3 className='mt-5 font-serif text-lg italic tracking-widest pb-5'>
                                 Timeless beauty — always flawless
                             </h3>
                         </div>
