@@ -16,7 +16,7 @@ export default function home(){
                  <div className='absolute right-0 left-0 pt-12 overflow-y-hidden h-full md:min-h-screen flex items-center justify-center'>
                     <div className='flex flex-col items-center gap-y-10 text-center'>
                         <div className='text-amber-50 backdrop-blur-xl'>
-                            <h2 className='font-bold text-4xl uppercase pt-5'>
+                            <h2 className='font-bold text-4xl uppercase pt-5 px-5'>
                                 More than a watch — defining style
                             </h2>
                             <h3 className='mt-5 font-serif text-lg italic tracking-widest pb-5'>
