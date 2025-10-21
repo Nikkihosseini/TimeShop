@@ -3,3 +3,16 @@
 @tailwind utilities;
 
 
+@font-face {
+  font-family: "CormorantGaramond Italic";
+  font-weight: 400;
+  font-display: swap;
+  src: url(/public/font/CormorantGaramond-Italic-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "CormorantGaramond";
+  font-weight: 400;
+  font-display: swap;
+  src: url(/public/font/CormorantGaramond-VariableFont_wght.ttf) format('truetype');
+}
