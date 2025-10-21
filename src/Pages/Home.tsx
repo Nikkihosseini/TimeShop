@@ -9,7 +9,7 @@ export default function home(){
         <>
         {/* Home */}
             <div className='relative w-full h-screen bg-home-desktop aspect-[2/1] bg-no-repeat bg-cover bg-[center-top]'>
-                 <span className='absolute top-0 bottom-0 right-0 left-0 w-full h-screen bg-gradient-to-r from-slate-800/85 to-slate-800/50'></span>
+                 <span className='absolute top-0 bottom-0 right-0 left-0 w-full h-screen bg-gradient-to-b from-slate-800/85 to-slate-800/45'></span>
 
                 {/* Header */}
                 <Header/>
@@ -34,7 +34,7 @@ export default function home(){
         {/* Main */}
 
             <div className='container'>
-               <div className='mt-16'>
+               <div className='my-16'>
                     <Main/>
                </div>
             </div>

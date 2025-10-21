@@ -12,7 +12,8 @@
 
 @font-face {
   font-family: "CormorantGaramond";
-  font-weight: 400;
+  font-weight: 700;
   font-display: swap;
   src: url(/public/font/CormorantGaramond-VariableFont_wght.ttf) format('truetype');
 }
+
