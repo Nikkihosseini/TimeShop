@@ -16,6 +16,10 @@ export default {
         lg: '5rem',
       },
     },
+    fontFamily:{
+      "CormorantGaramond": "CormorantGaramond",
+      "CormorantGaramondItalic": "CormorantGaramond Italic",
+    }
     },
   },
   plugins: [],

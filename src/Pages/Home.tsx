@@ -20,7 +20,7 @@ export default function home(){
                             <h2 className='font-bold text-4xl uppercase pt-5 px-5'>
                                 More than a watch — defining style
                             </h2>
-                            <h3 className='mt-5 font-serif text-lg italic tracking-widest pb-5'>
+                            <h3 className='mt-5 font-CormorantGaramondItalic font-light text-lg tracking-widest pb-5'>
                                 Timeless beauty — always flawless
                             </h3>
                         </div>
