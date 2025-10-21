@@ -6,13 +6,13 @@ import Btn from "./Btn";
 export default function banners(){
     return(
         <>
-            <div>
-                <div>
+            <div className="flex items-center justify-between gap-x-8 h-56 text-amber-50">
+                <div className="basis-1/2 h-full">
 
-                <img src="/public/image/banner1.jpg" alt="banner1" />
-                <div>
+                <img className="h-full" src="/public/image/banner1.jpg" alt="banner1" />
+                <div className="flex flex-col items-center justify-center">
                     <span>Limited offer</span>
-                    <strong>30% Off</strong>
+                    <strong className="font-bold">30% Off</strong>
                     <span>on watches</span>
                     <Btn text="Shop Now"/>
                 </div>
@@ -21,9 +21,9 @@ export default function banners(){
                 <div>
 
                 <img src="/public/image/banner2.jpg" alt="banner2" />
-                <div>
+                <div className="flex flex-col items-center justify-end uppercase">
                     <span>Watches</span>
-                    <strong>For Your</strong>
+                    <strong className="font-bold">For Your</strong>
                     <Btn text="Shop Now"/>
                 </div>
                 
@@ -32,3 +32,6 @@ export default function banners(){
         </>
     )
 }
+
+
+
