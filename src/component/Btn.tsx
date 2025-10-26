@@ -1,4 +1,4 @@
-import type  { ButtonProps } from './types/types'
+import type  { ButtonProps } from '../types/types'
 
 
 export default function Btn({ text , style}: ButtonProps){

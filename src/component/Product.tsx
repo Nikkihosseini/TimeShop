@@ -1,10 +1,10 @@
-import type { Product } from './types/types'
+import type { ProductType  } from '../types/types'
 
 
 
 
 
-export default function Product({id,image,name,price,prePrice} :Product){
+export default function Product({id,image,name,price,prePrice} :ProductType){
     return(
         <>
             <div id={id}>

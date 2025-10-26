@@ -5,7 +5,7 @@ export interface ButtonProps {
   style?: CSSProperties;
 }
 
-export interface Product {
+export interface ProductType  {
   id: string;
   name: string;
   price: number;
