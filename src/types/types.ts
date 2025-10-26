@@ -1,7 +1,12 @@
-// src/types.ts
+import type { CSSProperties } from 'react';
 
-export interface Product {
-  id: number;
+export interface ButtonProps {
+  text: string;
+  style?: CSSProperties;
+}
+
+export interface ProductType  {
+  id: string;
   name: string;
   price: number;
   category: string;
