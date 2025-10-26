@@ -1,0 +1,88 @@
+
+
+[
+    {
+        "id": 1,
+        "name": "Rolex Watches Sale",
+        "price": 120.0,
+        "category": "watch",
+        "inStock": false,
+        "image": "/images/product/product1.webp",
+        "isLiked": false
+    },
+    {
+        "id": 2,
+        "name": "Gotham Automatic White Dial Men's Watch 49404B",
+        "price": 120.0,
+        "category": "watch",
+        "inStock": false,
+        "image": "/images/product/product2.webp",
+        "isLiked": false
+    },
+    {
+        "id": 3,
+        "name": "Top Time B01 Triumph Chronograph Automatic",
+        "price": 985.00,
+        "category": "watch",
+        "inStock": false,
+        "image": "/images/product/product3.webp",
+        "isLiked": false,
+        "prePrice": 1475.00
+    },
+    {
+        "id": 4,
+        "name": "Aries Automatic Silver Skeleton Dial Men's Watch",
+        "price": 725.00,
+        "category": "watch",
+        "inStock": false,
+        "image": "/images/product/product4.webp",
+        "isLiked": false
+    },
+    {
+        "id": 5,
+        "name": "PRX Powermatic 80 Automatic Blue Dial Men",
+        "price": 958.00,
+        "category": "watch",
+        "inStock": false,
+        "image": "/images/product/product5.webp",
+        "isLiked": false
+    },
+    {
+        "id": 6,
+        "name": "Speedmaster Racing Automatic",
+        "price": 598.00,
+        "category": "watch",
+        "inStock": false,
+        "image": "/images/product/product6.webp",
+        "isLiked": false,
+        "prePrice": 745.00
+    },
+    {
+        "id": 7,
+        "name": "Chronograph Quartz Champagne Dial Men's",
+        "price": 574.00,
+        "category": "watch",
+        "inStock": false,
+        "image": "/images/product/product7.webp",
+        "isLiked": false
+    },
+    {
+        "id": 8,
+        "name": "Seastar 1000 Automatic Black Dial Men's Watch",
+        "price": 985.00,
+        "category": "watch",
+        "inStock": false,
+        "image": "/images/product/product8.webp",
+        "isLiked": false
+    },
+    {
+        "id": 9,
+        "name": "Strap Eco-Drive 180 Day-Date Men's Watch",
+        "price": 475.00,
+        "category": "watch",
+        "inStock": false,
+        "image": "/images/product/product9.webp",
+        "isLiked": false,
+        "prePrice": 645.00
+    }
+]
