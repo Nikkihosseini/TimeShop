@@ -9,8 +9,8 @@ export default function Products(){
 
     return(
         <>
-            <div className="my-20">
-                <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3.5 md:gap-10">
+            <div className="flex items-center justify-center my-20">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-10 md:gap-12">
                     {products.map((product: ProductType ) => (
                         <Product
                             key={product.id}
