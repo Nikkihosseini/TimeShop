@@ -7,9 +7,9 @@ import type { ProductType  } from '../types/types'
 export default function Product({id,image,name,price,prePrice} :ProductType){
     return(
         <>
-            <div id={id}>
-                <div>
-                    <img src={image} alt="product-img"/>
+            <div id={id} className='h-auto w-[330px]'>
+                <div className='h-[310px] w-[310px]'>
+                    <img className='h-full w-full' src={image} alt="product-img"/>
                 <div>
                     <div>
                         <span className="material-symbols-outlined">visibility</span>
