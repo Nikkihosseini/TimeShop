@@ -7,9 +7,9 @@ import type { ProductType  } from '../types/types'
 export default function Product({id,image,name,price,prePrice} :ProductType){
     return(
         <>
-            <div id={id} className='flex items-center justify-center flex-col h-auto w-[330px]'>
-                <div className='relative h-[310px] w-[310px]'>
-                    <img className='h-full w-full' src={image} alt="product-img"/>
+            <div id={id} className='flex items-center justify-center flex-col w-[330px] sm:h-auto sm:w-auto 2xl:w-[330px]'>
+                <div className='relative h-[330px] w-[330px] sm:h-auto sm:w-auto 2xl:h-[310px] 2xl:w-[310px]'>
+                    <img className='h-full w-full object-cover' src={image} alt="product-img"/>
                 <div className='absolute top-1/3 right-0 my-auto'>
                     <div>
                         <span className="material-symbols-outlined">visibility</span>
