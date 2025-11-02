@@ -8,16 +8,17 @@ export default function Product({id,image,name,price,prePrice} :ProductType){
     return(
         <>
             <div id={id} className='flex items-center justify-center flex-col w-[330px] sm:h-auto sm:w-auto 2xl:w-[330px]'>
-                <div className='relative h-[330px] w-[330px] sm:h-auto sm:w-auto 2xl:h-[310px] 2xl:w-[310px]'>
+                <div className='relative h-[330px] w-[330px] sm:h-auto sm:w-auto 2xl:h-[310px] 2xl:w-[310px] cursor-pointer group'>
+                    <span className='absolute inline-block h-full w-full bg-amber-300/10 backdrop-blur-sm invisible group-hover:visible transition-all duration-200 delay-100'></span>
                     <img className='h-full w-full object-cover' src={image} alt="product-img"/>
-                <div className='absolute top-1/3 right-0 my-auto'>
-                    <div>
+                <div className='flex flex-col items-center justify-center gap-3 text-slate-500 absolute top-1/4 right-0 my-auto invisible group-hover:visible transition-all duration-200 p-2'>
+                    <div className='flex items-center justify-center h-10 w-10 border-2 border-slate-500 rounded-full hover:text-orange-500 hover:border-orange-500 transition-all'>
                         <span className="material-symbols-outlined">visibility</span>
                     </div>
-                    <div>
+                    <div className='flex items-center justify-center h-10 w-10 border-2 border-slate-500 rounded-full hover:text-orange-500 hover:border-orange-500 transition-all'>
                         <span className="material-symbols-outlined">shopping_cart</span>
                     </div>
-                    <div>
+                    <div className='flex items-center justify-center h-10 w-10 border-2 border-slate-500 rounded-full hover:text-orange-500 hover:border-orange-500 transition-all'>
                         <span className="material-symbols-outlined">favorite</span>
                     </div>
                 </div>
