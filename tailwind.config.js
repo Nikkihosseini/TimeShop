@@ -8,6 +8,7 @@ export default {
     extend: {
       backgroundImage: {
       "home-desktop": "url(/image/HomeBg.jpg)",
+      "home-mobile": "url(/image/HomeMobile.jpg)",
     },
     container: {
       center: true,
