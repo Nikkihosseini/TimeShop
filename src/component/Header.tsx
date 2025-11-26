@@ -85,31 +85,62 @@ export default function Header(){
             </div>
         </div>
         {/* Mobile Menu List  */}
-        <div className= "inline-block md:hidden dark:bg-void-black bg-crt-white border-r-2 border-r-neon-blue w-52 fixed top-0 bottom-0 bg-gray-250 px-2 pt-2 z-50">
-                            <h2 className="font-PoppinsBold text-neon-blue text-center tracking-widest text-sm border-b-2 border-b-neon-blue mb-4 w-full pb-2">
-                                Projects Archive
+        <div className= "inline-block md:hidden text-amber-950 bg-amber-200/50 backdrop-blur-md w-52 fixed top-0 bottom-0 px-2 pt-2 z-50">
+                            <h2 className="font-semibold text-center tracking-widest text-xl border-b-2 border-b-amber-950 mb-4 w-full pb-2 uppercase">
+                               <span className="text-amber-300 tracking-widest">Time</span>Shop
                             </h2>
-                            <ul className='flex flex-col gap-8 items-start justify-between text-[12px] xl:text-sm'>
-                                <li>
+                            <ul className='flex flex-col gap-8 items-start justify-between text-xl font-semibold'>
+                                <li className="hover:bg-amber-950/30 w-full transition-all">
                                     <Link to='/'
-                                    className="flex items-center justify-center gap-1 mr-4  text-pastel-glitch-purple dark:text-lime-crt-glow hover:text-soft-lavender dark:hover:text-retro-mint-greencursor-pointer">Home
-                                    <img className='inline-block w-5 h-5 xl:w-7 xl:h-7' src="/png-icon/sword.png" alt="sword-png"/></Link>
+                                    className="flex items-start gap-1 mr-4 hover:text-soft-lavender pl-2"> Home
+                                    </Link>
                                 </li>
-                                <li>
-                                    <Link to='/Project'
-                                    className="flex items-center justify-center gap-1 mr-4 text-pastel-glitch-purple dark:text-lime-crt-glow hover:text-soft-lavender dark:hover:text-retro-mint-greencursor-pointer">Projects
-                                    <img className='inline-block w-5 h-5 xl:w-7 xl:h-7' src="/png-icon/star.png" alt="star-png"/></Link>
+                                <li className="hover:bg-amber-950/30 w-full transition-all">
+                                    <Link to='/'
+                                    className="flex items-start gap-1 mr-4 hover:text-soft-lavender pl-2"> Category
+                                    </Link>
                                 </li>
-                                <li>
-                                    <Link to='/About'
-                                    className="flex items-center justify-center gap-1 mr-4 text-pastel-glitch-purple dark:text-lime-crt-glow hover:text-soft-lavender dark:hover:text-retro-mint-greencursor-pointer">About
-                                    <img className='inline-block w-5 h-5 xl:w-7 xl:h-7' src="/png-icon/heart.png" alt="heart-png"/></Link>
+                                <li className="hover:bg-amber-950/30 w-full transition-all">
+                                    <Link to='/'
+                                    className="flex items-start gap-1 mr-4 hover:text-soft-lavender pl-2"> Collection
+                                    </Link>
                                 </li>
-                                <li>
-                                    <Link to='/Contact'
-                                    className="flex items-center justify-center gap-1 mr-4 text-pastel-glitch-purple dark:text-lime-crt-glow hover:text-soft-lavender dark:hover:text-retro-mint-greencursor-pointer">Contact
-                                    <img className='inline-block w-5 h-5 xl:w-7 xl:h-7' src="/png-icon/chat.png" alt="chat-png"/></Link>
+                                <li className="hover:bg-amber-950/30 w-full transition-all">
+                                    <Link to='/'
+                                    className="flex items-start gap-1 mr-4 hover:text-soft-lavender pl-2"> Contact
+                                    </Link>
                                 </li>
+                                <li className="hover:bg-amber-950/30 w-full transition-all">
+                                    <Link to='/'
+                                    className="flex items-start gap-1 mr-4 hover:text-soft-lavender pl-2">Search <span className="material-symbols-outlined cursor-pointer">search</span>
+                                    </Link>
+                                </li>
+                                <li className="hover:bg-amber-950/30 w-full transition-all">
+                                    <Link to='/'
+                                    className="flex items-start gap-1 mr-4 hover:text-soft-lavender pl-2">settings <span className="material-symbols-outlined cursor-pointer">settings</span>
+                                    </Link>
+                                </li>
+                                <li className="hover:bg-amber-950/30 w-full transition-all">
+                                    <Link to='/'
+                                    className="flex items-start gap-1 mr-4 hover:text-soft-lavender pl-2">profile <span className="material-symbols-outlined cursor-pointer">person</span>
+                                    </Link>
+                                </li>
+                                <li className="hover:bg-amber-950/30 w-full transition-all">
+                                    <Link to='/'
+                                    className="flex items-start gap-1 mr-4 hover:text-soft-lavender pl-2">shopping cart <span className="material-symbols-outlined">shopping_bag</span>
+                                    </Link>
+                                </li>
+                                <div className="lg:flex items-center gap-5 hidden">
+                    
+                    
+                    
+                    <div className="relative cursor-pointer">
+                         
+                         <span className="absolute top-[12px] right-[-5px] flex items-center justify-center h-5 w-5 bg-amber-400 rounded-full">
+                            0
+                        </span>
+                    </div>
+                </div>
                             </ul>
         </div>
         </>
