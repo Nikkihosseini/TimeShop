@@ -13,26 +13,33 @@ export default function Header(){
                 <div className="h-full">
                     <ul className="flex items-center justify-between gap-7 md:gap-14 font-semibold h-full tracking-wider">
 
-                       <li>
-                        <Link to='/' className="flex items-center relative group hover:text-amber-300 duration-300 delay-150 cursor-pointer h-full">
+                       <li className="flex items-center relative group hover:text-amber-300 duration-300 delay-150 cursor-pointer h-full">
+                        <Link to='/'>
                         home
                         </Link>
-                        
                         <span className="absolute left-0 bottom-[-7px] h-0.5 bg-amber-400 w-0 group-hover:w-full transition-all ease-in-out duration-300 delay-150"></span>
                        </li>
                        
                        <li className="flex items-center relative group hover:text-amber-300 duration-300 delay-150 cursor-pointer h-full">
-                        Category
-                        <span className="absolute left-0 bottom-[-7px] h-0.5 bg-amber-400 w-0 group-hover:w-full transition-all ease-in-out duration-300 delay-150"></span></li>
-                       
-                       <li className="flex items-center relative group hover:text-amber-300 duration-300 delay-150 cursor-pointer h-full">
-                        Collection
+                        <Link to='/'>
+                            Category
+                        </Link>
                         <span className="absolute left-0 bottom-[-7px] h-0.5 bg-amber-400 w-0 group-hover:w-full transition-all ease-in-out duration-300 delay-150"></span>
                         </li>
                        
                        <li className="flex items-center relative group hover:text-amber-300 duration-300 delay-150 cursor-pointer h-full">
-                        Contact
-                        <span className="absolute left-0 bottom-[-7px] h-0.5 bg-amber-400 w-0 group-hover:w-full transition-all ease-in-out duration-300 delay-150"></span></li>
+                        <Link to='/'>
+                            Collection
+                        </Link>
+                        <span className="absolute left-0 bottom-[-7px] h-0.5 bg-amber-400 w-0 group-hover:w-full transition-all ease-in-out duration-300 delay-150"></span>
+                        </li>
+                       
+                       <li className="flex items-center relative group hover:text-amber-300 duration-300 delay-150 cursor-pointer h-full">
+                        <Link to='/'>
+                            Contact
+                        </Link>
+                        <span className="absolute left-0 bottom-[-7px] h-0.5 bg-amber-400 w-0 group-hover:w-full transition-all ease-in-out duration-300 delay-150"></span>
+                        </li>
                        
                     </ul>
                 </div>
