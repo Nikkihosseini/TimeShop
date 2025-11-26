@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 
 export default function Header(){
@@ -12,8 +13,11 @@ export default function Header(){
                 <div className="h-full">
                     <ul className="flex items-center justify-between gap-7 md:gap-14 font-semibold h-full tracking-wider">
 
-                       <li className="flex items-center relative group hover:text-amber-300 duration-300 delay-150 cursor-pointer h-full">
+                       <li>
+                        <Link to='/' className="flex items-center relative group hover:text-amber-300 duration-300 delay-150 cursor-pointer h-full">
                         home
+                        </Link>
+                        
                         <span className="absolute left-0 bottom-[-7px] h-0.5 bg-amber-400 w-0 group-hover:w-full transition-all ease-in-out duration-300 delay-150"></span>
                        </li>
                        
@@ -72,6 +76,34 @@ export default function Header(){
             <div className="flex items-center justify-center cursor-pointer overflow-hidden w-6 h-6 z-50">
                 <span className="hamburger-line z-50"></span>
             </div>
+        </div>
+        {/* Mobile Menu List  */}
+        <div className= "inline-block md:hidden dark:bg-void-black bg-crt-white border-r-2 border-r-neon-blue w-52 fixed top-0 bottom-0 bg-gray-250 px-2 pt-2 z-50">
+                            <h2 className="font-PoppinsBold text-neon-blue text-center tracking-widest text-sm border-b-2 border-b-neon-blue mb-4 w-full pb-2">
+                                Projects Archive
+                            </h2>
+                            <ul className='flex flex-col gap-8 items-start justify-between text-[12px] xl:text-sm'>
+                                <li>
+                                    <Link to='/'
+                                    className="flex items-center justify-center gap-1 mr-4  text-pastel-glitch-purple dark:text-lime-crt-glow hover:text-soft-lavender dark:hover:text-retro-mint-greencursor-pointer">Home
+                                    <img className='inline-block w-5 h-5 xl:w-7 xl:h-7' src="/png-icon/sword.png" alt="sword-png"/></Link>
+                                </li>
+                                <li>
+                                    <Link to='/Project'
+                                    className="flex items-center justify-center gap-1 mr-4 text-pastel-glitch-purple dark:text-lime-crt-glow hover:text-soft-lavender dark:hover:text-retro-mint-greencursor-pointer">Projects
+                                    <img className='inline-block w-5 h-5 xl:w-7 xl:h-7' src="/png-icon/star.png" alt="star-png"/></Link>
+                                </li>
+                                <li>
+                                    <Link to='/About'
+                                    className="flex items-center justify-center gap-1 mr-4 text-pastel-glitch-purple dark:text-lime-crt-glow hover:text-soft-lavender dark:hover:text-retro-mint-greencursor-pointer">About
+                                    <img className='inline-block w-5 h-5 xl:w-7 xl:h-7' src="/png-icon/heart.png" alt="heart-png"/></Link>
+                                </li>
+                                <li>
+                                    <Link to='/Contact'
+                                    className="flex items-center justify-center gap-1 mr-4 text-pastel-glitch-purple dark:text-lime-crt-glow hover:text-soft-lavender dark:hover:text-retro-mint-greencursor-pointer">Contact
+                                    <img className='inline-block w-5 h-5 xl:w-7 xl:h-7' src="/png-icon/chat.png" alt="chat-png"/></Link>
+                                </li>
+                            </ul>
         </div>
         </>
     )
