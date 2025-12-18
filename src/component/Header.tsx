@@ -4,14 +4,14 @@ import { Link } from "react-router-dom"
 export default function Header(){
     return(
         <>
-        <header className="hidden sm:flex fixed top-8 right-0 left-0 w-[90%] h-[6rem] uppercase text-amber-950 bg-amber-200/50 backdrop-blur-md py-2 px-4 mx-auto z-50">
+        <header className="hidden md:flex fixed top-8 right-0 left-0 w-[90%] h-[6rem] uppercase text-amber-950 bg-amber-200/50 backdrop-blur-md py-2 px-4 mx-auto z-50">
             <div className="flex items-center justify-between w-full">
                 <div className="flex flex-col items-center">
                     <span className="material-symbols-outlined flex items-center justify-center bg-amber-500 rounded-full  text-amber-200 text-3xl h-12 w-12 rotate-45">watch</span>
                     <h1 className="hidden md:flex text-2xl tracking-widest"><span className="text-amber-300">Time</span>Shop</h1>
                 </div>
                 <div className="h-full">
-                    <ul className="flex items-center justify-between gap-7 md:gap-14 font-semibold h-full tracking-wider">
+                    <ul className="flex items-center justify-between md:gap-10 lg:gap-14 font-semibold h-full tracking-wider">
 
                        <li className="flex items-center relative group hover:text-amber-300 duration-300 delay-150 cursor-pointer h-full">
                         <Link to='/'>
@@ -54,7 +54,7 @@ export default function Header(){
                         </span>
                     </div>
                 </div>
-                <div className="flex lg:hidden items-end justify-end cursor-pointer text-right">
+                <div className="md:flex lg:hidden items-end justify-end cursor-pointer text-right">
                     <span className="material-symbols-outlined">
                         more_vert
                     </span>
@@ -75,7 +75,7 @@ export default function Header(){
             </div>
         </header>
         {/* Mobile Header */}
-        <div className="sm:hidden flex items-center justify-between fixed top-3 right-0 left-0 w-[90%] h-[4rem] uppercase text-amber-950 bg-amber-200/50 backdrop-blur-md py-2 px-4 mx-auto z-50">
+        <div className="md:hidden flex items-center justify-between fixed top-3 right-0 left-0 w-[90%] h-[4rem] uppercase text-amber-950 bg-amber-200/50 backdrop-blur-md py-2 px-4 mx-auto z-50">
             <div>
                 <h1 className="flex text-lg tracking-widest"><span className="text-amber-300">Time</span>Shop</h1>
             </div>
